@@ -1,0 +1,47 @@
+body{
+	margin:0px;
+	border-top:5px solid #b30001;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Arvo', serif;
+	font-weight: bolder;
+	font-style:italic;
+}
+
+h1 {
+	margin-bottom:1px;
+	padding-top:25px;
+}
+h3{
+	margin-top:1px;
+	color:#848484;
+}
+h1, h3{
+	text-align: center;
+}
+
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#checkpoints{
+	width:30%;
+	background-color: #2b2b2b;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 20px;
+	text-align: center;
+	box-shadow: 0px 0px 15px 15px rgba(0, 255, 255, 0.2);
+	margin-top:40px;
+}
+
+.checkpointtime{
+	font-size: 20pt;
+}
